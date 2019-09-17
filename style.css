@@ -727,6 +727,7 @@ footer {
     -ms-transition: all 1.2s;
     -o-transition: all 1.2s;
     transition: all 1.2s;
+    color: #00CC00;
 }
 
 .material-card .mc-footer {
@@ -936,11 +937,11 @@ footer {
 }
 
 .material-card.Red.mc-active .mc-content {
-    background-color: #FFEBEE;
+    background-color: #000;
 }
 
 .material-card.Red.mc-active .mc-footer {
-    background-color: #FFCDD2;
+    background-color: rgba(68, 50, 102, 0.7);
 }
 
 .material-card.Red.mc-active .mc-btn-action {
