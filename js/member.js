@@ -1,28 +1,28 @@
 var json = {
-    "items": [{
+    "members": [{
             "Name": "Vaughan Richard",
             "Location": "  Lagos, Nigeria",
             "imgPath": "img/members/JRBig.jpg",
-            "Nickname": "JR",
-            "Date of Birth": "13th August",
-            "Occupation": "Politician"
+            "Nickname": "Nickname : JR",
+            "DateOfBirth": "Date of : 13th August",
+            "Occupation": "Occupation : Politician"
         },
 
         {
             "Name": "Demola Abdulai",
             "Location": "Copenhagen, Denmark",
             "imgPath": "img/members/DemmyBing-min.jpg",
-            "Nickname": "Demmy",
-            "Date of Birth": "13th August",
-            "Occupation": "IT Developer"
+            "Nickname": "Nickname : Demmy",
+            "DateOfBirth": "Date of : 13th August",
+            "Occupation": "Occupation : IT Developer"
         },
     ]
 
 };
 
 var news = document.getElementById("news-story");
-var items = json.items;
-for (var i = 0; i < items.length; i++) {
+var members = json.members;
+for (var i = 0; i < members.length; i++) {
     var firstDiv = document.createElement('div');
     firstDiv.className = "col-md-4 col-sm-6 col-xs-12";
     news.appendChild(firstDiv);
@@ -37,7 +37,7 @@ for (var i = 0; i < items.length; i++) {
     var spanName = document.createElement('span')
     spanName.className = 'memberName';
     h2.appendChild(spanName);
-    spanName.innerHTML = items[i].Name;
+    spanName.innerHTML = members[i].Name;
 
     var strongTag = document.createElement('strong')
     h2.appendChild(strongTag);
@@ -48,7 +48,7 @@ for (var i = 0; i < items.length; i++) {
 
     var citeTag = document.createElement('cite')
     strongTag.appendChild(citeTag)
-    citeTag.innerHTML = items[i].Location
+    citeTag.innerHTML = members[i].Location
 
     // content header 
     var contentHeader = document.createElement('div')
@@ -62,7 +62,50 @@ for (var i = 0; i < items.length; i++) {
     var imgMain = document.createElement('img');
     imgMain.className = 'img-responsive';
     imageContainerDiv.appendChild(imgMain);
-    imgMain.src = items[i].imgPath;
+    imgMain.src = members[i].imgPath;
+
+    var description = document.createElement('div')
+    description.className = 'mc-description';
+    contentHeader.appendChild(description);
+
+    var nickName = document.createElement('h6')
+    description.appendChild(nickName);
+    nickName.innerHTML = members[i].Nickname;
+
+    var birthday = document.createElement('h6')
+    description.appendChild(birthday);
+    birthday.innerHTML = members[i].DateOfBirth;
+
+    var occupation = document.createElement('h6')
+    description.appendChild(occupation);
+    occupation.innerHTML = members[i].Occupation;
+
+
+    // action button to turn the other side 
+    var actionBtn = document.createElement('a');
+    actionBtn.className = 'mc-btn-action';
+    articleTag.appendChild(actionBtn);
+
+    var bars = document.createElement('i');
+    bars.className = 'fa fa-bars';
+    actionBtn.appendChild(bars)
+
+    // the social media logos on the member footer 
+    var mediaFooter = document.createElement('div')
+    mediaFooter.className = 'mc-footer'
+    articleTag.appendChild(mediaFooter);
+
+    var faceBookIcon = document.createElement('a');
+    faceBookIcon.className = 'fab fa-facebook';
+    mediaFooter.appendChild(faceBookIcon);
+
+    var twitterIcon = document.createElement('a');
+    twitterIcon.className = 'fab fa-twitter';
+    mediaFooter.appendChild(twitterIcon);
+
+    var linkedInIcon = document.createElement('a');
+    linkedInIcon.className = 'fab fa-linkedin';
+    mediaFooter.appendChild(linkedInIcon);
 
 
 
@@ -80,8 +123,4 @@ for (var i = 0; i < items.length; i++) {
 
 
 
-    // news.appendChild(firstName);
-    // var place = document.createElement('p');
-    // place.innerHTML = items[i].Location;
-    // news.appendChild(place)
 }
