@@ -347,7 +347,7 @@ var json = {
         {
             "Name": "Abimbola Oredugba",
             "Location": "   Manchester, UK",
-            "imgPath": "img/members/Abimbola_Oredugba.JPG",
+            "imgPath": "img/members/Abimbola_Oredugba.jpg",
             "Nickname": "Nickname : Orex",
             "DateOfBirth": "Date of : 10th December",
             "Occupation": "Occupation : "
