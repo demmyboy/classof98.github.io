@@ -535,7 +535,7 @@ footer {
     margin-bottom: 4px;
 }
 
-.container .product .btn {
+.container .product .btn a {
     position: absolute;
     font-size: 11px;
     font-weight: bold;
@@ -550,6 +550,7 @@ footer {
     overflow: hidden;
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
+    text-decoration: none;
 }
 
 .container .product .btn.ok {
