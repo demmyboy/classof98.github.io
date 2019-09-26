@@ -117,6 +117,7 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     display: inline-block !important;
+    margin: 10px;
 }
 
 .narrow {
@@ -440,7 +441,7 @@ blockquote .svg-inline--fa {
 }
 
 .form-control {
-    background-color: #53595f;
+    background-color: #fff;
     border: .15rem solid #666b71;
     color: #fff !important;
     font-size: 1.1rem;
@@ -488,6 +489,10 @@ a.top-scroll:hover {
 footer {
     background: #443266;
     color: #00CC00;
+}
+
+.col-auto svg.svg-inline--fa {
+    color: #00CC00 !important;
 }
 
 
@@ -2086,6 +2091,18 @@ footer {
 
 .material-card.Blue-Grey.mc-active .mc-btn-action {
     border-color: #ECEFF1;
+}
+
+.form-control-borderless {
+    border: none;
+}
+
+.form-control-borderless:hover,
+.form-control-borderless:active,
+.form-control-borderless:focus {
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 
 
