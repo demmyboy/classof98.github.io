@@ -83,7 +83,7 @@ body {
 
 .dropdown-item {
     color: #fff !important;
-    font-size: 0.7rem !important;
+    font-size: 0.8rem !important;
 }
 
 .dropdown-menu:hover {
@@ -92,6 +92,11 @@ body {
 
 .home-inner {
     background-image: url('img/schoolGate2.png');
+}
+
+.gallery-inner {
+    background-image: url('img/gallery/anniversary/Dinner/gregsFieldGallery.png')!important;
+    background-size: contain !important;
 }
 
 .caption {
@@ -137,6 +142,10 @@ body {
     width: 75%;
     margin: 0 auto;
     padding-top: 2rem;
+}
+
+.row-padding {
+    margin-top: 6rem;
 }
 
 .btn-sm {
@@ -2117,6 +2126,10 @@ footer {
     border: none;
     outline: none;
     box-shadow: none;
+}
+
+h3.galleryHeader {
+    color: #fff !important;
 }
 
 
