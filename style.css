@@ -77,6 +77,19 @@ body {
     transition: background-color .1s ease 0s;
 }
 
+.dropdown-menu {
+    background-color: rgba(68, 50, 102, 0.6) !important;
+}
+
+.dropdown-item {
+    color: #fff !important;
+    font-size: 0.7rem !important;
+}
+
+.dropdown-menu:hover {
+    background-color: #00CC00 !important;
+}
+
 .home-inner {
     background-image: url('img/schoolGate2.png');
 }
