@@ -82,12 +82,14 @@ body {
 }
 
 .dropdown-item {
-    color: #fff !important;
+    color: #000 !important;
     font-size: 0.8rem !important;
+    font-weight: 200 !important;
 }
 
 .dropdown-menu:hover {
-    background-color: #00CC00 !important;
+    background-colors: #00CC00 !important;
+    ecolor: #000 !important;
 }
 
 .home-inner {
