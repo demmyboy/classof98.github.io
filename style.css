@@ -84,7 +84,6 @@ body {
 .dropdown-item {
     color: #000 !important;
     font-size: 0.8rem !important;
-    font-weight: 200 !important;
 }
 
 .dropdown-menu:hover {
@@ -2231,7 +2230,6 @@ Extra (xl) large devices (large desktops, 1200px and up)
     .dropdown-item {
         color: #fff !important;
         font-size: 0.8rem !important;
-        font-weight: 100 !important;
     }
 }
 
@@ -2283,6 +2281,5 @@ Extra (xl) large devices (large desktops, 1200px and up)
     .dropdown-item {
         color: #fff !important;
         font-size: 0.8rem !important;
-        font-weight: 100 !important;
     }
 }
