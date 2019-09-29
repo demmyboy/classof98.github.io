@@ -82,12 +82,16 @@ body {
 }
 
 .dropdown-item {
-    color: #000 !important;
+    color: #fff !important;
     font-size: 0.8rem !important;
 }
 
-.dropdown-menu:hover {
-    background-colors: #00CC00 !important;
+.dropdown-item:hover {
+    background-color: #00CC00 !important;
+}
+
+.dropdown-menu {
+    background-color: none !important;
     ecolor: #000 !important;
 }
 
