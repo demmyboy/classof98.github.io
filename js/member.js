@@ -12,7 +12,7 @@ var json = {
             "Location": "  London, UK",
             "imgPath": "img/members/BayBig.jpg",
             "Nickname": "Nickname : Alhaji Solo",
-            "DateOfBirth": "Date of : 13th Feb",
+            "DateOfBirth": "Date of : 4th Feb",
             "Occupation": "Occupation : Project Manager"
         },
         {
