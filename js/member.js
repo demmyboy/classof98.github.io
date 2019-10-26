@@ -431,7 +431,7 @@ for (var i = 0; i < members.length; i++) {
     mediaFooter.className = 'mc-footer'
     articleTag.appendChild(mediaFooter);
 
-    var faceBookIcon = document.createElement('a');
+    /*var faceBookIcon = document.createElement('a');
     faceBookIcon.className = 'fab fa-facebook';
     mediaFooter.appendChild(faceBookIcon);
 
@@ -441,7 +441,7 @@ for (var i = 0; i < members.length; i++) {
 
     var linkedInIcon = document.createElement('a');
     linkedInIcon.className = 'fab fa-linkedin';
-    mediaFooter.appendChild(linkedInIcon);
+    mediaFooter.appendChild(linkedInIcon);*/
 
 
 
