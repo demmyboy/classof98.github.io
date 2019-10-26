@@ -178,7 +178,7 @@ var json = {
         {
             "Name": "Alaye Sunny Harry",
             "Location": "  Abuja, Nigeria ",
-            "imgPath": "img/members/avatar.png",
+            "imgPath": "img/members/alayeBig.jpg",
             "Nickname": "Nickname : ",
             "DateOfBirth": "Date of Birth : 1st August",
             "Occupation": "Occupation : Teacher/Educator"
