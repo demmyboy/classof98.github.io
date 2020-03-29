@@ -202,6 +202,8 @@ h3 svg.svg-inline--fa {
     display: inline-block !important;
     margin: 6px;
     background-color: #00CC00;
+    margin-bottom: -10px;
+    color: #fff;
 }
 
 #sort {
@@ -222,9 +224,11 @@ ul.filters>li {
 
 ul.filters>li>a {
     display: block;
-    color: #434e5e;
+    color: #fff;
     text-decoration: none;
     padding: 5px 20px;
+    background-color: rgb(150, 147, 147);
+    border-radius: 5px;
 }
 
 ul.filters>li>a:hover {
@@ -251,6 +255,8 @@ ul.filters>li.active>a {
     position: relative;
     overflow: hidden;
     height: 350px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
 }
 
 .card-overlay {
@@ -277,7 +283,7 @@ ul.filters>li.active>a {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(40, 190, 168, 1);
+    background-color: #00CC00;
     z-index: 10;
     display: flex;
     align-items: center;
@@ -325,4 +331,189 @@ h4.title {
 .card-btn:hover {
     background-color: #00CC00;
     color: #fff;
+}
+
+
+/* // contact us  */
+
+#contact {
+    background-color: black;
+    background-size: cover;
+    color: #fff;
+}
+
+#contact .row {
+    background-color: rgba(57, 63, 70, .85);
+    padding: 1rem 2rem 3rem;
+}
+
+#contact img {
+    height: 2rem;
+    margin: 1.5rem 0;
+}
+
+#contact a {
+    color: #fff;
+}
+
+#contact svg.svg-inline--fa {
+    font-size: 1.6rem;
+    margin: 1.2rem .5rem 0 0;
+}
+
+#contact svg.svg-inline--fa:hover {
+    color: #1ebba3 !important;
+}
+
+#contact h3 {
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+}
+
+.form-group {
+    margin-bottom: 1.3rem
+}
+
+.form-control {
+    background-color: #fff;
+    border: .15rem solid #666b71;
+    color: #fff !important;
+    font-size: 1.1rem;
+}
+
+.form-control:focus {
+    background: #53595f;
+    border: .15rem solid #666b71;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #b2b5b8 !important;
+}
+
+input.btn {
+    cursor: pointer;
+}
+
+hr.socket {
+    border-top: .2rem solid #666b71;
+    width: 100%;
+}
+
+footer {
+    background: #443266;
+    color: #00CC00;
+}
+
+
+/*Device Under 768 (md)*/
+
+@media(max-width:767px) {
+    .caption h1 {
+        font-size: 2.7rem;
+        letter-spacing: .15rem;
+        padding-bottom: .5rem;
+    }
+    .caption h3 {
+        font-size: 1.7rem;
+        padding-bottom: 1.2rem;
+        letter-spacing: .3rem;
+    }
+    .btn-lg {
+        padding: .6rem 1.1rem;
+        font-size: 1rem;
+    }
+    .narrow h1 {
+        font-size: 1.8rem;
+    }
+    #fixed {
+        background-image: url('img/fixed/apple-mobile.png');
+    }
+    #fixed-2 {
+        background-image: url('img/fixed/office-mobile.png');
+    }
+    footer {
+        background: url('img/footer/footer-mobile.png') no-repeat;
+    }
+    .clients img {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+    /*.top-scroll{
+        display: none !important 
+    }*/
+    .navbar-brand b {
+        display: block;
+        font-size: 70%;
+        line-height: 1;
+        color: #00CC00;
+    }
+    .navbar-brand span {
+        font-size: 15px;
+        font-weight: 100;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 0 0 2px;
+    }
+    .dropdown-item {
+        color: #fff !important;
+        font-size: 0.8rem !important;
+    }
+    ul.filters>li>a {
+        margin-bottom: 10px;
+    }
+}
+
+
+/*Device Under 576 (lg)*/
+
+@media(max-width:575px) {
+    .caption h1 {
+        font-size: 1.9rem;
+        letter-spacing: .1rem;
+        padding-bottom: .4rem;
+    }
+    .caption h3 {
+        font-size: 1.4rem;
+        padding-bottom: 1rem;
+        letter-spacing: .3rem;
+        font-weight: 700;
+    }
+    .btn-lg {
+        padding: .4rem .9rem;
+        font-size: .9rem;
+    }
+    .narrow {
+        width: 85%;
+    }
+    .navbar-brand b {
+        display: block;
+        font-size: 80%;
+        color: #00CC00;
+        font-weight: 400;
+    }
+    .navbar-brand span {
+        font-size: 15px;
+        font-weight: 200;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 0 0 2px;
+    }
+    .navbar-brand img {
+        height: 3rem;
+    }
+    footer {
+        background: #443266;
+        color: #00CC00;
+    }
+    .container .product {
+        margin-left: 20px;
+    }
+    .dropdown-item {
+        color: #fff !important;
+        font-size: 0.8rem !important;
+    }
+    ul.filters>li>a {
+        margin-bottom: 10px;
+    }
 }

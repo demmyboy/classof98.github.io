@@ -1,14 +1,22 @@
 (function() {
     'use strict';
+    var qsRegex;
+
     var $teams = $('.teams');
     $teams.isotope({
         itemSelector: '.item',
         layoutMode: 'fitRows',
+
         getSortData: {
             name: '.name',
-            number: '.number parseInt',
+
         }
     })
+
+
+
+
+
 
     // bind the sort button
     $('#sorts').on('click', 'button', function() {

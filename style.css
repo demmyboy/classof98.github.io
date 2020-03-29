@@ -430,7 +430,7 @@ blockquote .svg-inline--fa {
 }
 
 #contact {
-    background: url('img/footer/contactUsBackground.jpg') no-repeat;
+    background: black;
     background-size: cover;
     color: #fff;
 }
@@ -1041,54 +1041,6 @@ footer {
     border-color: #ECEFF1;
 }
 
-.material-card.Pink h2 {
-    background-color: #E91E63;
-}
-
-.material-card.Pink h2:after {
-    border-top-color: #E91E63;
-    border-right-color: #E91E63;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-.material-card.Pink h2:before {
-    border-top-color: transparent;
-    border-right-color: #880E4F;
-    border-bottom-color: #880E4F;
-    border-left-color: transparent;
-}
-
-.material-card.Pink.mc-active h2:before {
-    border-top-color: transparent;
-    border-right-color: #E91E63;
-    border-bottom-color: #E91E63;
-    border-left-color: transparent;
-}
-
-.material-card.Pink.mc-active h2:after {
-    border-top-color: #880E4F;
-    border-right-color: #880E4F;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-.material-card.Pink .mc-btn-action {
-    background-color: #E91E63;
-}
-
-.material-card.Pink .mc-btn-action:hover {
-    background-color: #880E4F;
-}
-
-.material-card.Pink .mc-footer h4 {
-    color: #880E4F;
-}
-
-.material-card.Pink .mc-footer a {
-    background-color: #880E4F;
-}
-
 .material-card.Pink.mc-active .mc-content {
     background-color: #FCE4EC;
 }
@@ -1099,17 +1051,6 @@ footer {
 
 .material-card.Pink.mc-active .mc-btn-action {
     border-color: #FCE4EC;
-}
-
-.material-card.Purple h2 {
-    background-color: #9C27B0;
-}
-
-.material-card.Purple h2:after {
-    border-top-color: #9C27B0;
-    border-right-color: #9C27B0;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
 }
 
 .material-card.Purple h2:before {
@@ -1219,204 +1160,6 @@ footer {
 
 .material-card.Deep-Purple.mc-active .mc-btn-action {
     border-color: #EDE7F6;
-}
-
-.material-card.Indigo h2 {
-    background-color: #3F51B5;
-}
-
-.material-card.Indigo h2:after {
-    border-top-color: #3F51B5;
-    border-right-color: #3F51B5;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-.material-card.Indigo h2:before {
-    border-top-color: transparent;
-    border-right-color: #1A237E;
-    border-bottom-color: #1A237E;
-    border-left-color: transparent;
-}
-
-.material-card.Indigo.mc-active h2:before {
-    border-top-color: transparent;
-    border-right-color: #3F51B5;
-    border-bottom-color: #3F51B5;
-    border-left-color: transparent;
-}
-
-.material-card.Indigo.mc-active h2:after {
-    border-top-color: #1A237E;
-    border-right-color: #1A237E;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-.material-card.Indigo .mc-btn-action {
-    background-color: #3F51B5;
-}
-
-.material-card.Indigo .mc-btn-action:hover {
-    background-color: #1A237E;
-}
-
-.material-card.Indigo .mc-footer h4 {
-    color: #1A237E;
-}
-
-.material-card.Indigo .mc-footer a {
-    background-color: #1A237E;
-}
-
-.material-card.Indigo.mc-active .mc-content {
-    background-color: #E8EAF6;
-}
-
-.material-card.Indigo.mc-active .mc-footer {
-    background-color: #C5CAE9;
-}
-
-.material-card.Indigo.mc-active .mc-btn-action {
-    border-color: #E8EAF6;
-}
-
-.material-card.Blue h2 {
-    background-color: #2196F3;
-}
-
-.material-card.Blue h2:after {
-    border-top-color: #2196F3;
-    border-right-color: #2196F3;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-.material-card.Blue h2:before {
-    border-top-color: transparent;
-    border-right-color: #0D47A1;
-    border-bottom-color: #0D47A1;
-    border-left-color: transparent;
-}
-
-.material-card.Blue.mc-active h2:before {
-    border-top-color: transparent;
-    border-right-color: #2196F3;
-    border-bottom-color: #2196F3;
-    border-left-color: transparent;
-}
-
-.material-card.Blue.mc-active h2:after {
-    border-top-color: #0D47A1;
-    border-right-color: #0D47A1;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-.material-card.Blue .mc-btn-action {
-    background-color: #2196F3;
-}
-
-.material-card.Blue .mc-btn-action:hover {
-    background-color: #0D47A1;
-}
-
-.material-card.Blue .mc-footer h4 {
-    color: #0D47A1;
-}
-
-.material-card.Blue .mc-footer a {
-    background-color: #0D47A1;
-}
-
-.material-card.Blue.mc-active .mc-content {
-    background-color: #E3F2FD;
-}
-
-.material-card.Blue.mc-active .mc-footer {
-    background-color: #BBDEFB;
-}
-
-.material-card.Blue.mc-active .mc-btn-action {
-    border-color: #E3F2FD;
-}
-
-.material-card.Light-Blue h2 {
-    background-color: #03A9F4;
-}
-
-.material-card.Light-Blue h2:after {
-    border-top-color: #03A9F4;
-    border-right-color: #03A9F4;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-.material-card.Light-Blue h2:before {
-    border-top-color: transparent;
-    border-right-color: #01579B;
-    border-bottom-color: #01579B;
-    border-left-color: transparent;
-}
-
-.material-card.Light-Blue.mc-active h2:before {
-    border-top-color: transparent;
-    border-right-color: #03A9F4;
-    border-bottom-color: #03A9F4;
-    border-left-color: transparent;
-}
-
-.material-card.Light-Blue.mc-active h2:after {
-    border-top-color: #01579B;
-    border-right-color: #01579B;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-.material-card.Light-Blue .mc-btn-action {
-    background-color: #03A9F4;
-}
-
-.material-card.Light-Blue .mc-btn-action:hover {
-    background-color: #01579B;
-}
-
-.material-card.Light-Blue .mc-footer h4 {
-    color: #01579B;
-}
-
-.material-card.Light-Blue .mc-footer a {
-    background-color: #01579B;
-}
-
-.material-card.Light-Blue.mc-active .mc-content {
-    background-color: #E1F5FE;
-}
-
-.material-card.Light-Blue.mc-active .mc-footer {
-    background-color: #B3E5FC;
-}
-
-.material-card.Light-Blue.mc-active .mc-btn-action {
-    border-color: #E1F5FE;
-}
-
-.material-card.Cyan h2 {
-    background-color: #00BCD4;
-}
-
-.material-card.Cyan h2:after {
-    border-top-color: #00BCD4;
-    border-right-color: #00BCD4;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-.material-card.Cyan h2:before {
-    border-top-color: transparent;
-    border-right-color: #006064;
-    border-bottom-color: #006064;
-    border-left-color: transparent;
 }
 
 .material-card.Cyan.mc-active h2:before {
@@ -2285,6 +2028,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
     .dropdown-item {
         color: #fff !important;
         font-size: 0.8rem !important;
+    }
+    ul.filters>li>a {
+        margin-bottom: 10px;
     }
 }
 
